@@ -1,0 +1,57 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #080808;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p1{
+    padding-left: 10px;
+}
+
+/* Works in Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 12px; /* Scrollbar width */
+  height: 12px; /* For horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Track background (optional) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Scroll thumb color */
+  border-radius: 6px;
+  border: 3px solid #000; /* Creates space around the thumb */
+}
