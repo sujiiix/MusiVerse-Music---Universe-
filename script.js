@@ -30,7 +30,7 @@ async function getSongs(folder) {
         songUL.innerHTML += `<li><img class="invert" width="34" src="music.svg" alt="">
             <div class="info">
                 <div>${song.replaceAll("%20", " ")}</div>
-                <div>Harry</div>
+                <div>Play</div>
             </div>
             <div class="playnow">
                 <span>Play Now</span>
@@ -99,7 +99,7 @@ async function displayAlbums() {
 
 async function main() {
     // Get the list of all the songs
-    await getSongs("songs/ncs")
+    await getSongs("songs/punjabi")
     playMusic(songs[0], true)
 
     // Display all the albums on the page
