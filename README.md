@@ -12,3 +12,6 @@ It allows users to play songs from multiple playlists, each defined in its own f
 - Responsive web layout
 - Inspired UI similar to Spotify
 
+## 🖥️ Live Demo
+👉 [Dive into MUSIC](https://sujiiix.github.io/MusiVerse-Music---Universe-/) 
+
